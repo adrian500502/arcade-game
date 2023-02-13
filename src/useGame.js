@@ -6,8 +6,8 @@ export default create(
   subscribeWithSelector((set) => {
     return {
       seed: 0,
-      levelsCount: 5,
-      difficulty: 2,
+      levelsCount: 10,
+      difficulty: 1,
       phase: 'ready',
       startTime: 0,
       endTime: 0,
