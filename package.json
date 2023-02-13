@@ -1,0 +1,55 @@
+{
+  "name": "arcade-game",
+  "version": "1.0.0",
+  "description": "Arcade game created with the use of Three.js and React Three Fiber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "vercel --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian500502/arcade-game.git"
+  },
+  "keywords": [],
+  "author": "Adrian Bruź",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrian500502/arcade-game/issues"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.56.24",
+    "@react-three/fiber": "^8.11.0",
+    "@react-three/rapier": "^0.11.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "three": "^0.148.0",
+    "zustand": "4.3"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "printWidth": 120,
+    "singleQuote": true,
+    "semi": true,
+    "useTabs": false,
+    "quoteProps": "as-needed",
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "arrowParens": "always"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
