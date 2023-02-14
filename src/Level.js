@@ -78,7 +78,7 @@ export function FinishFloor({ position = [0, 0, 0] }) {
           color="orange"
           outlineWidth={0.02}
         >
-          FINISH
+          KONIEC
           <meshBasicMaterial toneMapped={false} />
         </Text>
       </Float>
