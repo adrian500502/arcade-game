@@ -93,7 +93,7 @@ export function FinishFloor({ position = [0, 0, 0] }) {
       </RigidBody>
 
       <RigidBody position={[0, 0.3, 0]} type="fixed" colliders={'trimesh'} restitution={0.5} friction={0}>
-        <primitive object={crown.scene} scale={[0.75, 0.9, 0.75]} />
+        <primitive object={crown.scene} scale={[1, 1.2, 1]} />
       </RigidBody>
     </group>
   );
